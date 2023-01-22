@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./sources/imagens/flower.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Press+Start+2P&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./sources/css/reset.css">
+    <link rel="stylesheet" href="./sources/css/responsivo.css">
+    <link rel="stylesheet" href="./sources/css/estilos.css">
+    
+    <title>Super Mario Bros - O filme</title>
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./sources/imagens/mtrailer.mp4" type="video/mp4">
+
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a href="http://">
+            <img class="logo" src="./sources/imagens/SM3DW_1-Up_Cogumelo-removebg-preview.png" alt="logovida">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="informacoes">
+            <img class="img-title" src="./sources/imagens/mlogo.png" alt="logo do filme">
+            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur labore assumenda
+                repellat itaque tempora eveniet! Veritatis rerum necessitatibus, sapiente eligendi tenetur pariatur rem
+                reprehenderit, natus tempora quo iure. Ipsa, quae.</p>
+            <button class="botao-trailer">Assista ao trailer</button>
+        </section>
+        <img class="mario" src="./sources/imagens/mariogang.png" alt="Turma do Mario">
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fecha-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./sources/js/index.js"></script>
+</body>
+
+</html>
